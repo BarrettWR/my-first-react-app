@@ -1,0 +1,16 @@
+button {
+    display: flex;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    background-color: green;
+}
+
+button:active {
+    background-color: greenyellow;
+    color: grey;
+}

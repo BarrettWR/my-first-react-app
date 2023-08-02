@@ -1,0 +1,23 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 10px rgba(00, 00, 00, 0.2);
+    min-width: 300px;
+    margin: 20px;
+}
+
+.container > * {
+    margin: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(00, 00, 00, 0.2);
+    border: 1px solid grey;
+}
