@@ -2,21 +2,13 @@ import { useState } from 'react'
 import '../styles/component.css'
 
 
-// CVBlock.defaultProps = {
-//     title: "title",
-//     t1: "one",
-//     t2: "two",
-//     t3: "three"
-// }
-
 function CVBlock(props) {
-
     return (
         <div className='container'>
-            <h3>{props.title}</h3>
-            <p>{props.t1}</p>
-            <p>{props.t2}</p>
-            <p>{props.t3}</p>
+            <h1>{props.title}</h1>
+            <p>{props.input1}</p>
+            <p>{props.input2}</p>
+            <p>{props.input3}</p>
         </div>
     );
 };

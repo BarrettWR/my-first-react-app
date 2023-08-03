@@ -5,9 +5,7 @@ import '../styles/Button.css'
 function Button() {
 
     return (
-        <button onClick={() => 
-            alert("hi")
-        }>
+        <button>
             Submit
         </button>
     )
