@@ -53,13 +53,11 @@ function App() {
         <Button />
       </div>
 
-      <div>
+      <div className='CVContainer'>
         <CVBlock 
-          title="Personal Info" 
-          input1={name}
-          input2={email}
-          input3={phoneNumber}
-
+          title={name}
+          input1={email}
+          input2={phoneNumber}
         />
 
         <CVBlock 

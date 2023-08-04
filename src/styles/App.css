@@ -11,3 +11,29 @@
   justify-content: space-between;
   min-width: 60vw;
 }
+
+button {
+  display: flex;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  text-align: center;
+  background-color: green;
+}
+
+button:active {
+  background-color: greenyellow;
+  color: grey;
+}
+
+.CVContainer {
+    min-width: 600px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(00, 00, 00, 0.2);
+    border: 1px solid grey;
+    margin: 20px;
+}
